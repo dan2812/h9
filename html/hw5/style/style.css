@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1200px;
+margin: auto;
+padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    align-content: center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content:space-between;
+    font-size: 10px;
+}
+
+.logo{
+
+}
+
+.logo::first-letter{
+    color: #1abc9c;
+}
+
+.menu>:hover{
+    color: #1abc9c;
+    cursor: pointer;
+}
+
+.tours{
+    background-image: linear-gradient(to right,
+    #0d0d0ec6, #1d3969c6),
+    url(../img/slide4@1X.png);
+    height:607px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.btn{
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    border: none;
+    font-size: 64px;
+    color: #fff;
+}
+
+.text{
+    margin: 60px;
+
+}
+
+.text> p{
+    font-size:30px;
+    font-weight: 100;
+
+}
+.title{
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.collection::after{
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.collection{
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+
+}
+.people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people >div{
+margin: 25px;
+width: 23%;
+position: relative;;
+}
+.cnopka{
+    display: flex;
+
+}
+
+.name{
+    width: 85%;
+    background-color: #323232;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.price{
+width: 15%;
+background-color: #8c8c8c;
+color: #fff;
+text-decoration: none;
+line-height: 40px;
+text-align: center;
+}
+
+.submenu{
+    display: none;
+    width: 250px;
+    height: 270px;
+    background-color: #73737371;
+    position: absolute;
+    top:0;
+}
+
+.submenu >li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px gray;
+    height: 70px;
+    width: 70px;
+
+}
+
+.submenu>  li:last-child{
+    display: block;
+    width: 166px;
+    height: 50px;
+}
+
+.people> div:hover > .submenu{
+display: flex;
+}
+.submenu > li :nth-child{
+    width: 240px;
+    height: 70px;
+    top: 200px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.submenu > :last-child{
+    width: 240px;
+    height: 70px;
+      top:200px;
+      text-transform: uppercase;
+      color: #fff;
+}
+
+.pic > img{
+    width: 100%;
+}
