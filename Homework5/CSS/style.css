@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  /* width: 1200px; */
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
+
+header {
+  margin-bottom: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+}
+.menu > li:hover {
+  color: #1abc9c;
+  cursor: pointer;
+}
+.tours {
+  background-image: linear-gradient(to right, #0d0d0e81, #1d39697c),
+    url(../img/slide4.jpg);
+  height: 607px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.btn {
+  width: 104px;
+  height: 104px;
+  background-color: #1abc9c;
+  border: none;
+  font-size: 64px;
+  color: #fff;
+}
+
+.text {
+  margin: 60px;
+}
+
+.text > p {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.title {
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+.collection::after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: auto;
+  margin-top: 20px;
+}
+.collection {
+  text-align: center;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.people > div {
+  margin: 40px;
+  width: 23%;
+  position: relative;
+}
+.cnopka {
+  display: flex;
+}
+.name {
+  width: 85%;
+  background-color: #323232;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  align-items: center;
+  text-transform: uppercase;
+}
+.price {
+  width: 15%;
+  background-color: #8c8c8c;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  text-align: center;
+}
+.subMenu {
+  display: none;
+  width: 300px;
+  height: 330px;
+  background-color: #73737371;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.subMenu > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #fff;
+  height: 70px;
+  width: 70px;
+  margin: 0 10px 10px 0;
+  position: absolute;
+  top: 100px;
+}
+.people > div:hover > .subMenu {
+  display: flex;
+}
+.subMenu > li:first-child {
+  left: 30px;
+}
+.subMenu > li:nth-child(3) {
+  right: 20px;
+}
+
+.subMenu > li:last-child {
+  width: 240px;
+  height: 70px;
+  top: 200px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.pic > img {
+  width: 100%;
+}
