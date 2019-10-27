@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 20px 0 0 0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+    
+    
+}
+.menu-items:hover{
+    color: #fed136;
+}
+.menu-items{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.logo{
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    font-family: 'Qwigley';
+}
+.logo{
+    color: #fed136;
+}
+.text{
+    text-align: center;
+    margin-top: 100px;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Roboto Slab';
+}
+.title-descr{
+    color: rgba(119, 119, 119, 255);
+    font-style: italic;
+    font-size: 16px;
+}
+.icon-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.icon-item{
+    width: 274px;
+}
+.icon-title{
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab';
+}
+.icon-descr{
+    font-family: 'Roboto Slab';
+    color: rgba(119, 119, 119, 255);
+    font-weight: 200;
+}
+.image{
+    margin-bottom: 30px;
+    border: 3px solid #fed136;
+    border-radius: 24px;
+    height: 60px;
+    width: 68px;
+    margin-left: 105px;
+    
+}
+
+.main{
+    background-color: #222222;
+    padding-bottom: 80px;
+    position: relative;
+}
+input{
+    width: 455px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    
+    
+    
+}
+textarea{
+width: 455px;
+height: 230px;
+margin-bottom: 40px;
+margin-left: 20px;
+border-radius: 5px;
+font-family: 'Montserrat';
+color: rgba(119, 119, 119, 255);
+font-weight: 700;
+text-transform: uppercase;
+
+
+}
+form{
+    margin-top: 100px;
+}
+button{
+    background-color: #fed136;
+    width: 240px;
+    height: 66px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+}
+.text2{
+    text-align: center;
+    padding-top: 100px;
+}
+.inputs{
+    width: 460px;
+
+}
+.title-contact{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #fff;
+}
+.message{
+    display: flex;
+    
+   
+    
+    
+
+}
+.registration{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.map{
+    position: absolute;
+    top: 140px;
+    left: 1100px;
+}
