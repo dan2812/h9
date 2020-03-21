@@ -1,0 +1,147 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.logo::first-letter{
+    color:#1abc9c;
+}
+.menu>li:hover{
+    color: #1abc9c;
+    cursor: pointer;
+}
+.shop{
+    text-transform: uppercase;
+
+}
+.title{
+    font-weight: 900;
+    text-align:center;
+    font-size: 34px;
+}
+.title:after{
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 32px auto;
+}
+header{
+    margin-bottom: 105px;
+}
+
+.thing {
+    width: 23%;
+    margin-bottom: 30px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pic{
+    height: 250px;
+    background-color: #e9f0fd;
+    text-align: center;
+}
+.name{
+    background-color: #323232;
+    color: #ffffff;
+    text-decoration: none;
+    width: 80%;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.price{
+    background-color:#8c8c8c;
+    color: #ffffff;
+    text-decoration: none;
+    width: 20%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.priceThing{
+    display: flex;
+    width: 100%;
+}
+button{
+    border: none;
+    background-color: #4ec6ab;
+    width:160px;
+    height: 51px;
+
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news>div{
+    width: 30%;
+}
+.news img{
+    width:100%;
+}
+.price2{
+    background-color:#c1ebe2;
+    color: #ffffff;
+    text-decoration: none;
+    width: 20%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.name2{
+    background-color: #1abc9c;
+    color: #ffffff;
+    text-decoration: none;
+    width: 80%;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.container{ 
+    background-color:black;
+    width: 10000px;
+    height:500px;
+    top: 0px;
+    
+
+}
+.block{
+    width: 10px;
+    height: 100px;
+    position: absolute;
+}
+
+.title2{
+    font-weight: 900;
+    text-align:center;
+    font-size: 34px;
+}
+.title2:after{
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 32px auto;
+}

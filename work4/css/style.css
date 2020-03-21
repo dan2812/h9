@@ -1,0 +1,121 @@
+ .contaniner{ 
+    width: 600px;
+    height: 600px;
+    background-image: url(https://images.pexels.com/photos/2124696/pexels-photo-2124696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:  center;
+    margin: auto;
+}
+
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   font-family: 'Open Sans',Arial,sans-serif;
+   line-height: 1.5;
+
+}
+
+.wrapper{
+    max-width: 960px;
+    min-width: 960px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.section{
+margin-bottom: 30px;
+}
+
+.section h2{
+    font-size: 30px;
+
+}
+
+.section p{
+    font-size: 18px;
+}
+
+.parallax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.bg1{
+    background-image: url(https://images.pexels.com/photos/2097103/pexels-photo-2097103.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.bg2{
+    background-image: url(https://images.pexels.com/photos/2104140/pexels-photo-2104140.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.bg3{
+    background-image: url(https://images.pexels.com/photos/2108232/pexels-photo-2108232.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+} */
+
+.red{
+     color: rgb(255,0,0); */
+     color: #ff000088;
+} 
+
+.green{
+    color: rgb(0,255,0 );
+ color: #00ff0055;
+} 
+
+.blue{
+    color: rgb (0,0,255)
+    color: #0000ffbb;
+} 
+
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+.box1{
+ background-image:linear-gradient( #00BB44, #f5f5f5);
+ width: 400px;
+ height: 400px;
+}
+
+.box2{
+    background-image:linear-gradient(to top, #00ffaa,#ff00ff);
+width: 400px;
+height: 400px;
+    
+}
+
+.box3{
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+} 
+
+
+
+ ul{
+     color: #0E1116;
+     
+ }
+ 
+
+ .hoy:nth-child(-n+3){
+    background-color: #88292F
+ }
+.hoy:nth-child(n+4){
+    background-color: #5DB7DE;
+}
+.hoy:nth-child(n+7){
+    background-color: #0d5d56
+}
+
+
+ 

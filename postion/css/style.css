@@ -1,0 +1,39 @@
+
+
+ .background{
+    height: 400px;
+    width: 400px;
+    background-color: #424242;
+    position:relative;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+}
+
+/* .menu{
+    display: flex;
+    justify-content: spase-between;
+    width: 500px;
+    margin: auto;
+    list-style: none;
+    font-size: 200%;
+    text-transform: uppercase;
+
+}
+
+.subMenu{
+    display: none;
+}
+
+.menu > li > h2 {
+    border: 1px solid black;
+
+}
+
+.menu > li:hover > .subMenu{
+    display: block;
+} */
